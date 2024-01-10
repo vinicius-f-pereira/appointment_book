@@ -1,9 +1,9 @@
 require 'date'
-require '../lib/appointment'
-require '../lib/cancelation'
-require '../lib/handle_db'
-require '../lib/patient'
-require '../lib/utils'
+require './appointment'
+require './cancelation'
+require './handle_db'
+require './patient'
+require './utils'
 
 patients = {}
 appointments = []
