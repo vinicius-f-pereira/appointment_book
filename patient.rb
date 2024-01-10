@@ -13,8 +13,8 @@ def add_patient(patients)
 	  puts "Nome e telefone são obrigatórios."
 	  return
 	end
-  
-	unless phone.match?(/\A\+?\d{1,3}\s?\d{1,14}\z/)
+
+	unless phone.match?(/\A\+?\d{1,3}\s?\d{1,3}\s?\d{1,5}\s?\-?\d{1,4}\z/)
 	  puts "Formato de telefone inválido. Use o formato +999999999."
 	  return
 	end
@@ -25,4 +25,7 @@ def add_patient(patients)
 	  patients[phone] = name.strip
 	  puts "Paciente cadastrado com sucesso"
 	end
-  end
+end
+
+
+ 
