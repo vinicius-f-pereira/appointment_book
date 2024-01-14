@@ -1,4 +1,4 @@
-[Português](README.pt-BR.md)
+[Versão em Português](README.pt-BR.md)
 # Appointment book
 This repository was created to solve a challenge where you need to create a system that runs in terminal and register patients,  schedule  and cancel appointments.
 # Dependencies
