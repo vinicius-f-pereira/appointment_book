@@ -1,5 +1,5 @@
 # Appointment book
-This repository to solve a challenge where you need to create a system that runs in terminal and register patients, appointments and cancel them too.
+This repository was created to solve a challenge where you need to create a system that runs in terminal and register patients,  schedule  and cancel appointments.
 # Dependencies
 Ensure that you have ruby installed `(v3.3.15)` to run correctly. Run command `ruby -v` to verify version.
 
