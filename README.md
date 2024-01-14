@@ -1,3 +1,4 @@
+[Português](README.pt-BR.md)
 # Appointment book
 This repository was created to solve a challenge where you need to create a system that runs in terminal and register patients,  schedule  and cancel appointments.
 # Dependencies
@@ -28,11 +29,11 @@ ruby main.c
 1. Cadastrar paciente `register patient`
 2. Agendar consulta `schedule appointment`
 3. Desmarcar consulta `cacel appointment`
-4. Encerrar o programar `finish program`
+4. Encerrar programa `finish program`
 
 ### Register patient
 ```text
-This option ask for name and phone of patient
+This option ask for name and phone of patient.
 Phone need to be in this pattern: Country code, area code and phone number.
 At register a patienc for the first time, program will create a file '.db' to store this data.
 If you close program and run again, you data will be read from this file and you keep data saved in past sessions.
@@ -43,7 +44,7 @@ If you close program and run again, you data will be read from this file and you
 To this option works, you need to have at least one patient registered.
 When you choose this option, a prompt with registered patients will appear, so you choose patient and start the appointment.
 Enter the consultation date and time. Date pattern: "dd/MM/yyyy" Time pattern: "HH:MM" (is not possible schedule in past dates)
-Type medical speciality
+Insert medical speciality.
 ```
 
 ### Cancel appointment
