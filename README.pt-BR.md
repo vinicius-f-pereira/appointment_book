@@ -1,10 +1,11 @@
+[English Version](README.md)
 # Agenda de consulta
-This repository was created to solve a challenge where you need to create a system that runs in terminal and register patients,  schedule  and cancel appointments.
-# Dependencies
-Ensure that you have ruby installed `(v3.3.15)` to run correctly. Run command `ruby -v` to verify version.
+Este repositório foi criado para solucionar um desafio onde é necessário criar um sistema que rode em terminal e cadastre pacientes, agende e cancele consultas.
+# Dependencias
+Certifique-se de ter o Ruby instalado `(v3.3.15)` para funcionar corretamente. Execute o comando `ruby -v` para verificar a versão.
 
-## How to use
-`clone the repository`
+## Modo de usar
+`clone o repositorio`
 
 ### SSH
 ```ssh
@@ -19,42 +20,42 @@ git clone https://github.com/vinicius-f-pereira/appointment_book.git; cd appoint
 gh repo clone vinicius-f-pereira/appointment_book; cd appointment_book
 ```
 
-## Run the project
+## Execute o programa
 ```bash
 ruby main.c
 ```
 
-### Options
-1. Cadastrar paciente `register patient`
-2. Agendar consulta `schedule appointment`
-3. Desmarcar consulta `cacel appointment`
-4. Encerrar o programar `finish program`
+### Opçoes
+1. Cadastrar paciente
+2. Agendar consulta
+3. Desmarcar consulta
+4. Encerrar programa
 
-### Register patient
+### Registrar paciente
 ```text
-This option ask for name and phone of patient
-Phone need to be in this pattern: Country code, area code and phone number.
-At register a patienc for the first time, program will create a file '.db' to store this data.
-If you close program and run again, you data will be read from this file and you keep data saved in past sessions.
+Esta opção pede nome e telefone do paciente
+O telefone precisa estar neste padrão: código do país, código de área e número de telefone.
+Ao registrar um paciente pela primeira vez, o programa criará um arquivo '.db' para armazenar esses dados.
+Se você fechar o programa e executá-lo novamente, seus dados serão lidos deste arquivo e você manterá os dados salvos em sessões anteriores.
 ```
 
-### Schedule appointment
+### Agendar consulta
 ```text
-To this option works, you need to have at least one patient registered.
-When you choose this option, a prompt with registered patients will appear, so you choose patient and start the appointment.
-Enter the consultation date and time. Date pattern: "dd/MM/yyyy" Time pattern: "HH:MM" (is not possible schedule in past dates)
-Type medical speciality
+Para que esta opção funcione, é necessário ter pelo menos um paciente cadastrado.
+Ao escolher esta opção, aparecerá um prompt com os pacientes cadastrados, então você escolhe o paciente e inicia a consulta.
+Insira a data e hora da consulta. Padrão de data: "dd/MM/yyyy" Padrão de horário: "HH:MM" (não é possível agendamento em datas passadas).
+Inserir especialidade médica.
 ```
 
-### Cancel appointment
+### Cancelar consulta
 ```text
-To this option works, we need at least one appointment.
-Will prompt existing appointments, choose one.
+Para que esta opção funcione, precisamos de pelo menos um agendamento.
+Irá solicitar agendamentos existentes, escolha um.
 ```
 
-### Finish program
+### Encerrar programa
 ```text
-Finish program
+Encerra o programa.
 ```
 
 
